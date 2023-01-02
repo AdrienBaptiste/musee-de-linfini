@@ -1,0 +1,140 @@
+.header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.logo {
+    width: 25vw;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -10%;
+    margin-top: -5%;
+}
+.logo img {
+    width: 100%;
+}
+
+
+.header ul a li{
+    list-style: none;
+    color: white;
+    font-size: 1.7vw;
+    font-family: 'Okine Sans Thin';
+}
+.header ul a {
+    text-decoration: none;
+    margin: 2vw 5vw 2vw 5vw;
+}
+.header ul {
+    width: 60%;
+    height: 20%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+}
+.header ul a li:hover {
+    color: #9362A4;
+}
+
+
+@font-face {
+    font-family: 'LEMON MILK Light';
+    src: url(../typos/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: 'Okine Sans Thin';
+    src: url(../typos/MADEOkineSansPERSONALUSE-Thin.otf);
+}
+
+
+
+
+
+
+
+.switch-box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80%;
+    margin-top: -4%;
+
+  }
+.trad {
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+    width: 100%;
+    text-align: center;
+}
+
+
+  
+  
+  /* The switch - the box around the slider */
+  .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+      margin-right: 0;
+    }
+    
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    /* The slider */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: black;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 20px;
+      outline: 2px solid white;
+  
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 20px;
+    }
+    
+    input:checked + .slider {
+      background-color: white;
+    }
+    
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+      background-color: black;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    

@@ -1,0 +1,26 @@
+footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7vw;
+    padding: 3vw;
+    border-top: 2px solid white;
+    
+}
+
+
+
+
+
+@font-face {
+    font-family: 'LEMON MILK Light';
+    src: url(../typos/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: 'Okine Sans Thin';
+    src: url(../typos/MADEOkineSansPERSONALUSE-Thin.otf);
+}

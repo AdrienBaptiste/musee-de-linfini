@@ -1,0 +1,90 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Okine Sans Thin';
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.title {
+    font-family: 'LEMON MILK Light';
+    font-size: 70pt;
+    color: #000;
+    text-shadow: #FFF 0.5vh 0.5vh;
+    text-align: center;
+    grid-column: 2;
+    margin: 7%;
+    margin-bottom: 1vw;
+}
+
+img{
+    width: 1000px;
+    height: auto;
+    grid-column:2/3 ;
+
+}
+
+
+.subtitle {
+    font-family: 'Okine Sans Thin';
+    font-size: 30pt;
+}
+
+
+table{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5vw;
+}
+
+td{
+    padding: 25px;
+    font-size: 16pt;
+ }
+
+p{
+    grid-column: 2;
+    font-size: 16pt;
+    line-height: 30px;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.boite-teaser {
+    margin: auto;
+    position:relative;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'LEMON MILK Light';
+    src: url(../typos/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: 'Okine Sans Thin';
+    src: url(../typos/MADEOkineSansPERSONALUSE-Thin.otf);
+}
